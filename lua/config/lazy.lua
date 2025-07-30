@@ -23,7 +23,7 @@ vim.g.lazyvim_check_order = false
 vim.opt.number = true
 local set = vim.opt
 
-set.relativenumber = true
+-- set.relativenumber = true
 set.tabstop = 2
 set.shiftwidth = 2
 set.expandtab = true
