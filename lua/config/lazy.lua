@@ -20,6 +20,7 @@ vim.opt.rtp:prepend(lazypath)
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 vim.g.lazyvim_check_order = false
+vim.opt.number = true
 -- Setup lazy.nvim
 require("lazy").setup({
   spec = {
